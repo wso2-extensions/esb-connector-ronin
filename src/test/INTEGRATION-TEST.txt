@@ -34,8 +34,8 @@ Steps to follow in setting integration test.
 	
  6. Prerequisites for Ronin Connector Integration Testing
 
-	i) 	Navigate to the URL "https://[subdomain].roninapp.com/estimates", create two or more estimates. If there are no any clients create them as well.
-	ii) Navigate to the URL "https://[subdomain].roninapp.com/invoices", create two or more invoices. If there are no any clients create them as well.
+	i)  Navigate to the URL "https://[subdomain].roninapp.com/estimates", create two or more estimates. If there are no any clients              create them as well.
+	ii) Navigate to the URL "https://[subdomain].roninapp.com/invoices", create two or more invoices. If there are no any clients                create them as well.
  
  7. Update the Ronin properties file at location "<RONIN_CONNECTOR_HOME>src/test/resources/artifacts/ESB/connector/config" as below.
 	
@@ -75,9 +75,8 @@ Steps to follow in setting integration test.
 	xxxiv)	paymentNote						-       A String value for the payment note to create a invoice                                                                                  payment with optional parameters.
 	xxxv)	paymentReceivedOn				        -       A date value in YYYY-MM-DD format to create a invoice                                                                                    payment with optional parameters (any past date).
 	xxxvi)	transactionFeeAmount			                -       A numeric value for the transaction fee to create a                                                                                      invoice payment with optional parameters.
-	
 
- 9. Navigate to "{RONIN_CONNECTOR_HOME}/" and run the following command.
+ 8. Navigate to "{RONIN_CONNECTOR_HOME}/" and run the following command.
       $ mvn clean install
 
 		

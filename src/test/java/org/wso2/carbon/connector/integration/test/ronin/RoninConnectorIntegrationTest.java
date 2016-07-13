@@ -50,7 +50,7 @@ public class RoninConnectorIntegrationTest extends ConnectorIntegrationTestBase 
 
         apiRequestHeadersMap = new HashMap<String, String>();
 
-        init("ronin-connector-1.0.1");
+        init("ronin-connector-1.0.2-SNAPSHOT");
 
         esbRequestHeadersMap.put("Accept-Charset", "UTF-8");
         esbRequestHeadersMap.put("Content-Type", "application/json");

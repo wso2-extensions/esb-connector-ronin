@@ -36,7 +36,7 @@
         <payloadFactory media-type="json">
             <format>
                 {
-                "user": {
+                "client_user": {
                 "name": "$1",
                 "email": "$2"
                 }
@@ -55,16 +55,16 @@
             var phone = mc.getProperty('uri.var.phone');
             var title = mc.getProperty('uri.var.title');
             if (ext != null && ext != ""){
-               jsonPayload.user.ext = ext;
+               jsonPayload.client_user.ext = ext;
             }
             if (mobile != null && mobile != ""){
-               jsonPayload.user.mobile = mobile;
+               jsonPayload.client_user.mobile = mobile;
             } 
             if (phone != null && phone != ""){
-               jsonPayload.user.phone = phone;
+               jsonPayload.client_user.phone = phone;
             }
             if (title != null && title != ""){
-               jsonPayload.user.title = title;
+               jsonPayload.client_user.title = title;
             }   
             mc.setPayloadJSON(jsonPayload);
          ]]>

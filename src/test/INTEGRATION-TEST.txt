@@ -10,12 +10,12 @@ Tested Platform:
 
  - Microsoft WINDOWS V-7
  - UBUNTU 13.04
- - WSO2 ESB 4.9.0
+ - WSO2 ESB 4.9.0,5.0.0 BETA
  - Java 1.7
 
 Steps to follow in setting integration test.
 
- 1. Download ESB WSO2 ESB 4.9.0 from official ESB site.
+ 1. Download ESB WSO2 ESB 4.9.0,5.0.0 BETA from official ESB site.
  
  2.	Deploy relevant patches, if applicable.
  

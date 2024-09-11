@@ -4,7 +4,7 @@
     "category": "Billing and Accounting",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/Ronin+Connector",
     "description": "The Ronin connector allows you to access the Ronin REST API through WSO2 ESB. Ronin is a full-featured time tracking and invoicing application. It allows you to easily manage almost all aspects of your online projects, though it has a focus on the billing side. ",
-    "status": "Active",
+    "status": "Inactive",
     "labels": [
         "connector"
     ],
